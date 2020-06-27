@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculator</title>
+</head>
+
+
+<body>
+    <div class="heading">
+    <h1> CALCULATOR</h1>
+</div>
+    
+
+
+    
+    <div class="main">
+
+        <div>
+            <input id="no" class="result" type="text" >
+        </div>
+        <div>
+            <button onclick="getClear()" type="button" class="btn clear btn-secondary">C</button>
+            <button onclick="getClear()" type="button" class="btn  clear btn-secondary">CE</button>
+            <button onclick="getClear()" type="button" class="btn  clear btn-secondary">Del</button>
+            <button onclick="getSq()"    type="button" class="btn  mul btn-warning">Sq_R</button> 
+           
+
+                 
+
+    </div> 
+        <div>
+            
+            <button onclick="getNo('7')" type="button" class="btn btn-secondary">7</button>
+            <button onclick="getNo('8')" type="button" class="btn btn-secondary">8</button>
+            <button onclick="getNo('9')" type="button" class="btn btn-secondary">9</button>
+            <button onclick="getNo('/')" type="button" class="btn mul btn-warning">/</button>
+        </div>
+
+        <div>
+            <button onclick="getNo('4')" type="button" class="btn btn-secondary">4</button>
+            <button onclick="getNo('5')" type="button" class="btn btn-secondary">5</button>
+            <button onclick="getNo('6')" type="button" class="btn btn-secondary">6</button>
+            <button onclick="getNo('*')" type="button" class="btn mul btn-warning">x</button>
+            
+        </div>
+
+        <div>
+            <button onclick="getNo('1')" type="button" class="btn btn-secondary">1</button>
+            <button onclick="getNo('2')" type="button" class="btn btn-secondary">2</button>
+            <button onclick="getNo('3')" type="button" class="btn btn-secondary">3</button>
+            <button onclick="getNo('-')" type="button" class="btn mul btn-warning">-</button>
+            
+        </div>
+
+        <div>
+            <button onclick="getNo('0')" type="button" class="btn  btn-secondary">0</button>
+            <button onclick="getNo('.')" type="button" class="btn  btn-secondary">.</button>
+             <button onclick="getResult()" type="button" class="btn btn-secondary">=</button>
+             <button onclick="getNo('+')" type="button" class="btn mul btn-warning">+</button>
+        </div>
+    </div> 
+
+</body>
+<script src="app.js"></script>
+</html>
